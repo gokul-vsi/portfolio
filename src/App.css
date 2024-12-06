@@ -1,0 +1,15 @@
+
+.navbar-brand{
+    color: #6e57e0 !important;
+}
+.nav-link{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.nav-btn{
+    all: unset;
+    color: #ffffff;
+    background-color: #6e57e0;
+    border-radius: 5px;
+}
