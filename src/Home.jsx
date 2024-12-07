@@ -1,6 +1,7 @@
 import React from 'react'
 import image1 from './images/portfolio-1.jpg'
 import { AutoType } from './AutoType'
+import { About } from './About'
 
 export const Home = () => {
   return (
@@ -16,11 +17,12 @@ export const Home = () => {
              <p className='ms-md-5 ms-lg-5 mt-3 home-p w-100'>Specialized in MERN Stack, I build dynamic, user-friendly web applications that look great and work flawlessly across all devices. Let's bring your vision to life with clean code and compelling design.</p>
              <div className='d-flex gap-1'>
              <button className='ms-md-5 ms-lg-5 mt-3  home1-btn'>Contact Me</button>
-             <div className='animate__animated animate__pulse animate__slow animate__infinite'><button className='ms-md-5 ms-lg-5 mt-3 home2-btn'>Hire Me</button></div>
+             <div className='animate__animated animate__pulse animate__fast animate__infinite'><button className='ms-md-5 ms-lg-5 mt-3 home2-btn'>Hire Me</button></div>
              </div>
           </div>
         </div>
       </div>
+      <About/>
     </div>
 
   )
