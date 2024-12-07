@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
   <div class="container">
     <a class="navbar-brand animate__animated animate__fadeInDown" href="#"><h2>Portfolio</h2></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

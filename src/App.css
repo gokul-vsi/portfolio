@@ -13,3 +13,39 @@
     background-color: #6e57e0;
     border-radius: 5px;
 }
+.navbar{
+    border-bottom: 2px solid #ffffff;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+/* =================Home================= */
+.home-img{
+    border-radius: 10px;
+}
+.home-p{
+    font-size: 18px;
+    color:  #9ca3af;
+}
+.home-2{
+    margin-top: 65px !important;
+}
+@media (max-width:768px) {
+    .home-2{
+        margin-top: 0px !important;
+    }
+}
+.home1-btn{
+    all: unset;
+    background-color: #6e57e0;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.home2-btn{
+    all: unset;
+    background-color: #ffffff;
+    border:1px solid  #6e57e0;
+    color: #6e57e0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
