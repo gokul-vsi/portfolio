@@ -7,7 +7,7 @@ export const AutoType = () => {
   useEffect(() => {
     
     const options = {
-      strings: ["Full Stack  developer", "Web Designer","MERN Stack developer"],
+      strings: ["Full Stack Web developer", "Web Designer","MERN Stack developer"],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
@@ -24,7 +24,7 @@ export const AutoType = () => {
 
   return (
     <div>
-      <h1 className='ms-md-5 ms-lg-5 mt-3'>I'm <span className="auto-type" ref={typedRef}></span> </h1>
+      <h1 className='ms-md-5 ms-lg-5 mt-3'> <span className="auto-type" ref={typedRef}></span> </h1>
     </div>
   );
 };
