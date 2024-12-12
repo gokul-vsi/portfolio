@@ -24,7 +24,7 @@ export const AutoType = () => {
 
   return (
     <div>
-      <h1 className='ms-md-5 ms-lg-5 mt-3'> <span className="auto-type" ref={typedRef}></span> </h1>
+      <h1 className='ms-md-4 ms-lg-4 mt-3'> <span className="auto-type" ref={typedRef}></span> </h1>
     </div>
   );
 };
