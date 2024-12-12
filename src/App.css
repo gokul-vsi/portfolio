@@ -21,20 +21,20 @@
 /* =================Home================= */
 .home-img{
     border-radius: 10px;
-    height: 500px;
+    /* height: 500px; */
 }
-@media (max-width:786px) {
+/* @media (max-width:786px) {
     .home-img{
-        width: 300px;
+        width: 378px;
         height: 300px;
     }
-}
+} */
 .home-p{
     font-size: 18px;
     color:  #9ca3af;
 }
 .home-2{
-    margin-top: 65px !important;
+    margin-top: 85px !important;
 }
 @media (max-width:768px) {
     .home-2{
