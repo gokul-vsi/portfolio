@@ -102,6 +102,12 @@
     .skill{
         margin-top: 20px !important;
     }
+    .skill-mobile{
+        margin-top: 20px !important;
+    }
+    .sk-mob{
+        margin-left: 10px !important;
+    }
 }
 .skill{
     margin-top: 60px;
