@@ -14,11 +14,11 @@ export const About = () => {
             <div className='d-flex justify-content-between gap-1  mb-3'>
             <div className='education-box px-md-3 px-lg-3 px-1'>
               <h5 className=' mt-1 font-bolder mt-md-3 mt-lg-3'>Education</h5>
-              <p className=' mt-1 clg-ins mt-md-3 mt-lg-3'>2023-BCA,INDO AMERICAN College</p>
+              <p className=' mt-1 clg-ins mt-md-3 mt-lg-3'>BCA , Indo American College - 2023</p>
             </div>
             <div className='education-box px-md-3 px-lg-3 px-1 '>
               <h5 className='font-bolder mt-1 mt-md-3 mt-lg-3'>Certification</h5>
-              <p className='clg-ins mt-1 mt-md-3 mt-lg-3'>2024-Full Stack Web development and Designing,Web D School</p>
+              <p className='clg-ins mt-1 mt-md-3 mt-lg-3'>Full Stack Web Development and Designing , Web D School - 2024</p>
             </div>
             </div>
           </div>
