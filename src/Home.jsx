@@ -2,6 +2,7 @@ import React from 'react'
 import image1 from './images/portfolio-1.jpg'
 import { AutoType } from './AutoType'
 import { About } from './About'
+import { Skill } from './Skill'
 
 export const Home = () => {
   return (
@@ -23,6 +24,7 @@ export const Home = () => {
         </div>
       </div>
       <About/>
+      <Skill/>
     </div>
 
   )
