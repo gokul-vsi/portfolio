@@ -15,7 +15,7 @@ export const Skill = () => {
         <div className="row">
           <div className="col-md-6 col-lg-6">
              <div className="first-main d-flex gap-5 ms-md-5">
-             <div className="first-1 d-flex flex-column gap-2">
+             <div className="first-1 d-flex flex-column gap-2 sk-mon-1">
               <h5><MdVerified  className='verified' /> HTML</h5>
               <h5><MdVerified  className='verified' /> CSS</h5>
               <h5><MdVerified  className='verified' /> Javascript</h5>
@@ -43,6 +43,7 @@ export const Skill = () => {
             <div className="second2 d-flex flex-column gap-2 sk-mob">
             <h5><MdVerified  className='verified' /> Github</h5>
             <h5><MdVerified  className='verified' /> Django</h5>
+            <h5><MdVerified  className='verified' /> Redux</h5>
             </div>
             </div>
             </div>
