@@ -14,7 +14,7 @@ export const Skill = () => {
        <div className="container skill">
         <div className="row">
           <div className="col-md-6 col-lg-6">
-             <div className="first-main   d-flex justify-content-center align-item-center gap-5 ms-md-5">
+             <div className="first-main   d-flex justify-content-center align-item-center gap-5 ms-md-3">
              <div className="first-1 d-flex flex-column gap-2 sk-mon-1">
               <h5 className='sk-h'><MdVerified  className='verified' /> HTML</h5>
               <h5 className='sk-h'><MdVerified  className='verified' /> CSS</h5>
