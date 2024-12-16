@@ -106,7 +106,7 @@ export const Skill = () => {
           <div className="className='w-50 h-100 skill-box">
              <img src={figma} className='skill-width mx-auto d-block img-fluid mt-md-3' alt="" />
              <h5 className='text-center mt-3'>Figma</h5>
-             <p className='text-center text-sm skill-p'>UI/UX design and prototyping tool</p>
+             <p className='text-center text-sm skill-p'>Building interactive UIs with state management</p>
            </div>
           </div>
           <div className="col-md-3"></div>
