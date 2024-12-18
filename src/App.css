@@ -111,3 +111,31 @@
 .skill-p{
     font-size: 13px;
 }
+.fm-width{
+    width: 450px !important;
+}
+@media (max-width:500px) {
+    .fm-width{
+        width: 210px !important;
+    }
+}
+.control{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.label{
+    font-weight: 600;
+}
+.contact{
+    background-color:
+    #f9fafb;
+}
+.fot-name{
+    color: #6e57e0;
+}
+.footer{
+    background-color: #F5EFFF;
+}
+.fot-icon{
+    font-size: 25px;
+}
