@@ -36,7 +36,7 @@ export const Contactus = () => {
       </div>
       <div>
         <label htmlFor="" className='mb-md-2 mt-md-2 label'>Subject</label>
-      <textarea name="message" className='form-control' />
+      <textarea name="message" className='form-control fw' />
       </div>
       <div className='d-flex justify-content-center'>
       <input type="submit" value="Send Message" className='home1-btn mt-4' />
