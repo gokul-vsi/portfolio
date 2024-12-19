@@ -12,8 +12,9 @@ export const Contactus = () => {
         publicKey: 'EIvz0waaN4umVp2lz',
       })
       .then(
-        () => {
+        () => {          
           console.log('SUCCESS!');
+          form.current.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -28,7 +29,7 @@ export const Contactus = () => {
             <form ref={form} onSubmit={sendEmail}>
       <div>
         <label htmlFor="" className='mb-md-2 mt-md-2 label'>Your Name</label>
-      <input type="text" name="from_name" className='form-control fm-width' />
+      <input type="text" name="from_name" className='form-control fm-width fa' />
       </div>
       <div>
         <label htmlFor="" className='mb-md-2 mt-md-2 label'>Email Address</label>

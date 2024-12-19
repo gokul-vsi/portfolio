@@ -118,6 +118,9 @@
     .fm-width{
         width: 210px !important;
     }
+    .fa{
+        width: 240px !important;
+    }
 }
 .control{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

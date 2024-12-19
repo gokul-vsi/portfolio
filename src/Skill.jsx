@@ -14,7 +14,7 @@ import figma from './images/figma.webp'
 
 export const Skill = () => {
   return (
-    <div>
+    <div id='Skill'>
       <div className="container">
         <div className="row">
           <div className="col-md-12 col-lg-12">

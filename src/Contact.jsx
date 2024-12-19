@@ -4,11 +4,11 @@ import { FaInstagram,FaLinkedin,FaGithub,FaRegCopyright} from "react-icons/fa";
 
 export const Contact = () => {
   return (
-    <div className='contact'>
+    <div className='contact' id='Contact'>
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <h1 className='text-center skill-top'>Get IN Touch</h1>
+            <h1 className='text-center skill-top'>Get In Touch</h1>
           <p className='text-center mt-3'>Feel free to reach out for any inquiries or collaboration opportunities!</p>
           </div>
         </div>

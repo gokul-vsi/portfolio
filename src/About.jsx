@@ -3,7 +3,7 @@ import image2 from './images/portfolio-2.jpg'
 
 export const About = () => {
   return (
-    <div>
+    <div id='About' className='pt-1'>
       <div className="container mt-md-5 mt-lg-5 mt-xl-5 about-top">
         <div className="row">
           <div className="col-md-6 mt-5 ">

@@ -7,7 +7,7 @@ import { Contact } from './Contact'
 
 export const Home = () => {
   return (
-    <div>
+    <div >
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-lg-6 order-2 order-md-1 mt-5">
