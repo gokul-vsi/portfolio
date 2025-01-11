@@ -48,6 +48,9 @@
     border-radius: 5px;
     padding: 10px 20px;
 }
+.anone{
+    text-decoration: none !important;
+}
 .home2-btn{
     all: unset;
     background-color: #ffffff;
@@ -141,7 +144,13 @@
 }
 .fot-icon{
     font-size: 25px;
+    color: #000 !important;
 }
 .fw{
     height: 85px !important;
+}
+.card-link{
+text-decoration: none !important;
+color: #6e57e0;
+font-weight: bold;
 }

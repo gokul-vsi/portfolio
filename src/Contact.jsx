@@ -22,9 +22,9 @@ export const Contact = () => {
                 <h1 className='fot-name text-center mt-3'>Gokulnath</h1>
               </div>
               <div className='d-flex justify-content-center gap-3 mt-3'>
-              <FaInstagram className='fot-icon' />
-              <FaLinkedin className='fot-icon' />
-              <FaGithub className='fot-icon' />
+              <a href="https://www.instagram.com/itz_gokul_23_/">    <FaInstagram className='fot-icon' /> </a>
+                                      <a href="https://www.linkedin.com/in/gokulnath-n-1305b9341/">  <FaLinkedin className='fot-icon' />   </a>
+                                      <a href="https://github.com/gokul-vsi">   <FaGithub className='fot-icon' />  </a>
               </div>
               <div>
              <p className='d-flex gap-2 justify-content-center mt-3'> <FaRegCopyright className='mt-1' />Copyright 2024. All rights reserved.</p>

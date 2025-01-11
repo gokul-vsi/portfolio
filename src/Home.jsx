@@ -4,6 +4,8 @@ import { AutoType } from './AutoType'
 import { About } from './About'
 import { Skill } from './Skill'
 import { Contact } from './Contact'
+import { Project } from './Project'
+import { FaInstagram,FaLinkedin,FaGithub,FaRegCopyright} from "react-icons/fa";
 
 export const Home = () => {
   return (
@@ -18,14 +20,20 @@ export const Home = () => {
              <AutoType/>
              <p className='ms-md-5 ms-lg-5 mt-3 home-p w-100' style={{textAlign:'justify'}}>Specialized in MERN Stack, I build dynamic, user-friendly web applications that look great and work flawlessly across all devices. Let's bring your vision to life with clean code and compelling design.</p>
              <div className='d-flex gap-1'>
-             <button className='ms-md-5 ms-lg-5 mt-3  home1-btn'>Contact Me</button>
+           <a href="#Contact" className='anone'>  <button className='ms-md-5 ms-lg-5 mt-3  home1-btn'>Contact Me</button> </a>
              <div className='animate__animated animate__pulse animate__fast animate__infinite'><button className='ms-md-3 ms-lg-3 mt-3 home2-btn'>Hire Me</button></div>
+             </div>
+             <div className='d-flex gap-3 mt-4 ms-md-5 ms-lg-5 '>
+                       <a href="https://www.instagram.com/itz_gokul_23_/">    <FaInstagram className='fot-icon' /> </a>
+                        <a href="https://www.linkedin.com/in/gokulnath-n-1305b9341/">  <FaLinkedin className='fot-icon' />   </a>
+                        <a href="https://github.com/gokul-vsi">   <FaGithub className='fot-icon' />  </a>
              </div>
           </div>
         </div>
       </div>
       <About/>
       <Skill/>
+      <Project/>
       <Contact/>
     </div>
 

@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const Contactus = () => {
   const form = useRef();
@@ -14,6 +16,7 @@ export const Contactus = () => {
       .then(
         () => {          
           console.log('SUCCESS!');
+          toast.success("Message send Successfully")
           form.current.reset();
         },
         (error) => {
@@ -24,6 +27,7 @@ export const Contactus = () => {
 
   return (
     <div className="container d-flex  justify-content-center   mt-4">
+        <ToastContainer position="top-right" />
         <div className="row">
             <div className="col-md-12 control p-5">
             <form ref={form} onSubmit={sendEmail}>
