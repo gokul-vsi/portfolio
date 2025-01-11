@@ -58,7 +58,7 @@ export const Project = () => {
     <h5 class="card-title mt-1">Task Manager</h5>
     <p class="card-text mb-2 mt-3" style={{textAlign:"justify"}}> CRUD application with the MERN stack, integrating a responsive frontend backend and database management</p>
     <div className='d-flex justify-content-between mt-3'>
-    <a href="webd-taskmanager.vercel.app" className='card-link '>Live Demo</a>
+    <a href="https://webd-taskmanager.vercel.app/" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
   </div>
@@ -84,7 +84,7 @@ export const Project = () => {
     <h5 class="card-title">E-commerce website</h5>
     <p class="card-text mt-3 mb-3 ">Implemented an Add-to-Cart functionality in a React.js application</p>
     <div className='d-flex justify-content-between mt-4'>
-    <a href="skechers-ecommerce.vercel.app" className='card-link '>Live Demo</a>
+    <a href="https://skechers-ecommerce.vercel.app/" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
   </div>
@@ -95,7 +95,7 @@ export const Project = () => {
     </div>
     <div className="container">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-3 mb-3">
           <div class="card h-100" width =  {18+'rem'}>
   <img src={image2}  class="card-img-top" alt="..."/>
           <div class="card-body">
@@ -109,7 +109,7 @@ export const Project = () => {
   </div>
   
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 mb-3">
         <div class="card h-100" width =  {18+'rem'}>
         <img src={image3}  class="card-img-top" alt="..."/>
         <div class="card-body">
@@ -122,7 +122,7 @@ export const Project = () => {
   </div>
         </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 mb-3">
         <div class="card h-100" width =  {18+'rem'}>
         <img src={image6}  class="card-img-top" alt="..."/>
         <div class="card-body">
