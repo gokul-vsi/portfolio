@@ -145,7 +145,7 @@ export const Project = () => {
   <div class="tab-pane fade" id="pills-frontend" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
     <div className="container">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-3 mb-3">
         <div class="card h-100" width =  {18+'rem'}>
   <img src={image4}  class="card-img-top" alt="..."/>
   <div class="card-body">
@@ -158,7 +158,7 @@ export const Project = () => {
   </div>
 </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 mb-3">
         <div class="card h-100" width =  {18+'rem'}>
   <img src={image1} class="card-img-top" alt="..."/>
   <div class="card-body">
@@ -172,7 +172,7 @@ export const Project = () => {
   </div>
 </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 mb-3">
         <div class="card h-100" width =  {18+'rem'}>
   <img src={image2}  class="card-img-top" alt="..."/>
           <div class="card-body">
@@ -185,7 +185,7 @@ export const Project = () => {
   </div>
   </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 mb-3">
         <div class="card h-100" width =  {18+'rem'}>
         <img src={image3}  class="card-img-top" alt="..."/>
         <div class="card-body">
