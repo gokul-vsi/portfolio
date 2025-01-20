@@ -61,7 +61,7 @@ export const Project = () => {
     <h5 class="card-title mt-1">Task Manager</h5>
     <p class="card-text mb-2 mt-3" style={{textAlign:"justify"}}> CRUD application with the MERN stack, integrating a responsive frontend backend and database management</p>
     <div className='d-flex justify-content-between mt-3'>
-    <a href="https://webd-taskmanager.vercel.app/" className='card-link '>Live Demo</a>
+    <a href="https://taskmanager-webd.vercel.app/" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
   </div>
@@ -230,7 +230,7 @@ export const Project = () => {
     <h5 class="card-title mt-1">Task Manager</h5>
     <p class="card-text mb-2 mt-3" style={{textAlign:"justify"}}> CRUD application with the MERN stack, integrating a responsive frontend backend and database management</p>
     <div className='d-flex justify-content-between mt-3'>
-    <a href="https://webd-taskmanager.vercel.app/" className='card-link '>Live Demo</a>
+    <a href="https://taskmanager-webd.vercel.app/" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
   </div>

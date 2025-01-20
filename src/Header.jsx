@@ -34,7 +34,7 @@ export const Header = () => {
         </li>
       </ul>
       <form className="d-flex justify-content-center animate__animated animate__fadeInDown" role="search">
-        <button className="nav-btn p-2 " type="submit">DOWNLOAD CV</button>
+        <a href="" className="nav-btn p-2 " type="submit">DOWNLOAD CV</a>
       </form>
     </div>
   </div>

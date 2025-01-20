@@ -13,6 +13,11 @@
     background-color: #6e57e0;
     border-radius: 5px;
 }
+.nav-btn:hover{
+    color: #6e57e0;
+    border: 1px solid #6e57e0;
+    background-color: #ffffff;
+}
 .navbar{
     border-bottom: 2px solid #ffffff;
     box-shadow: 2px 2px 5px #ccc;
@@ -47,6 +52,11 @@
     color: #ffffff;
     border-radius: 5px;
     padding: 10px 20px;
+}
+.home1-btn:hover{
+    color: #6e57e0;
+    border: 1px solid #6e57e0;
+    background-color: #ffffff;
 }
 .anone{
     text-decoration: none !important;
