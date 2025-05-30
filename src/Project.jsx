@@ -50,7 +50,7 @@ export const Project = () => {
   <div class="card-body">
     <h5 class="card-title">E-commerce website</h5>
     <p class="card-text mt-3 mb-3 ">Implemented an Add-to-Cart functionality in a React.js application</p>
-    <div className='d-flex justify-content-between mt-4'>
+    <div className='d-flex justify-content-between mt-5 mb-2'>
     <a href="https://skechers-ecommerce.vercel.app/" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
@@ -63,7 +63,7 @@ export const Project = () => {
   <div class="card-body">
     <h5 class="card-title mt-1">Task Manager</h5>
     <p class="card-text mb-2 mt-3" style={{textAlign:"justify"}}> CRUD application with the MERN stack, integrating a responsive frontend backend and database management</p>
-    <div className='d-flex justify-content-between mt-3'>
+    <div className='d-flex justify-content-between mt-4'>
     <a href="https://taskmanager-webd.vercel.app/" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
@@ -109,13 +109,16 @@ export const Project = () => {
         <div class="card-body">
     <h5 class="card-title">Coffee House</h5>
     <p class="card-text mt-3  " style={{textAlign:"justify"}}>Created a detailed and interactive coffee shop website design in Figma, emphasizing user-friendly interface</p>
-    <div className='d-flex justify-content-between mt-4'>
+    <div className='d-flex justify-content-between mt-5'>
     <a href="https://www.figma.com/proto/8MOnwogxC7Jd3gxVnwLIr1/gokul_2?node-id=1-2&p=f&t=A3ep06AGqZOh0wDY-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
   </div>
         </div>
         </div>
+         
+
+        
 
          <div className="col-md-3 mb-3">
         <div class="card h-100" width =  {18+'rem'}>
@@ -123,7 +126,7 @@ export const Project = () => {
   <div class="card-body">
     <h5 class="card-title mb-3 mt-2 bolder ">School Website</h5>
     <p class="card-text mb-4" style={{textAlign:"justify"}}>I designed and developed a multi-page website for a school  in HTML and CSS</p>
-    <div className='d-flex justify-content-between'>
+    <div className='d-flex justify-content-between mt-5 '>
     <a href=" https://gokul-vsi.github.io/school/" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
@@ -138,13 +141,53 @@ export const Project = () => {
   <div class="card-body">
     <h5 class="card-title  mb-2 mt-4">QR code</h5>
     <p class="card-text mt-3 mb-4">Developed a backend QR code generation application using Node.js and Express</p>
-    <div className='d-flex justify-content-between mb-2'>
+    <div className='d-flex justify-content-between mt-5'>
     <a href="https://qr-code-1-qlzj.onrender.com" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
   </div>
 </div>
         </div>
+        <div className="col-md-3 mb-3">
+        <div class="card h-100" width =  {18+'rem'}>
+        <img src={image8}  class="card-img-top" alt="..."/>
+        <div class="card-body">
+    <h5 class="card-title mt-3">Doctor Consultancy</h5>
+    <p class="card-text mt-3 mb-3  " style={{textAlign:"justify"}}>This Doctor Consultancy project is a React.js-based web application where users can easily book appointments with doctors online.</p>
+    <div className='d-flex justify-content-between mt-4'>
+    <a href="https://doctor-consultancy-webd.vercel.app/" className='card-link '>Live Demo</a>
+    <a href="" className='card-link '>Github</a>
+    </div>
+  </div>
+        </div>
+        </div>
+      </div>
+      
+    </div>
+    <div className="container">
+      <div className="row">
+        
+          <div className="col-md-3 mb-3">
+        <div class="card h-100" width =  {18+'rem'}>
+        <img src={image9}  class="card-img-top" alt="..."/>
+        <div class="card-body">
+    <h5 class="card-title mt-3">Botonical Planthouse</h5>
+    <p class="card-text mt-3 mb-3  " style={{textAlign:"justify"}}>Planthouse is a plant e-commerce UI built with React.js, offering a modern and easy-to-use interface for browsing and purchasing plants.</p>
+    <div className='d-flex justify-content-between mt-4'>
+    <a href="https://planthouse-webd.vercel.app/" className='card-link '>Live Demo</a>
+    <a href="" className='card-link '>Github</a>
+    </div>
+  </div>
+        </div>
+        </div>
+         
+
+        
+
+         
+       
+        
+       
       </div>
       
     </div>
@@ -159,7 +202,7 @@ export const Project = () => {
   <div class="card-body">
     <h5 class="card-title">E-commerce website</h5>
     <p class="card-text mt-3 mb-3 ">Implemented an Add-to-Cart functionality in a React.js application</p>
-    <div className='d-flex justify-content-between mt-4'>
+    <div className='d-flex justify-content-between mt-5'>
     <a href="https://skechers-ecommerce.vercel.app/" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
@@ -198,7 +241,7 @@ export const Project = () => {
   <div class="card-body">
     <h5 class="card-title mb-3 mt-2 bolder ">School Website</h5>
     <p class="card-text mb-4" style={{textAlign:"justify"}}>I designed and developed a multi-page website for a school  in HTML and CSS</p>
-    <div className='d-flex justify-content-between'>
+    <div className='d-flex justify-content-between my-1'>
     <a href=" https://gokul-vsi.github.io/school/" className='card-link '>Live Demo</a>
     <a href="" className='card-link '>Github</a>
     </div>
